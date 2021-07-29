@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD QUESTIONS"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your question"
+            android:layout_marginLeft="20sp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="70sp"/>
+        <EditText
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your question"
+            android:textSize="15sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginLeft="20sp"
+           />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options :"
+        android:layout_marginTop="30sp"
+       android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textSize="12sp"/>
+
+
+        <EditText
+            android:id="@+id/btn1"
+            android:layout_width="315sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/buttonbox"
+            android:hint="enter your first option"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+
+
+
+    <EditText
+        android:id="@+id/btn2"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:hint="enter your second option"
+        android:textSize="12sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/buttonbox"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="20sp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/btn3"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:hint="enter your third option"
+        android:textSize="12sp"
+        android:background="@drawable/buttonbox"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:id="@+id/btn4"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:hint="enter your last option"
+        android:textSize="12sp"
+        android:background="@drawable/buttonbox"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:singleLine="true"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        android:background="@drawable/button"
+        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"/>
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="348dp"
+
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"/>
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="408dp"
+
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"/>
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="462dp"
+
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"/>
+</RelativeLayout>
+</ScrollView>
